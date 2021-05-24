@@ -1,0 +1,13 @@
+
+<div class="card mx-auto" style="margin-bottom: 5px; border: none;">
+    <img [src]="recipe.imagePath" class="card-img-top" alt="{{ recipe.name }}" style="max-height: 300px;">
+    <div class="card-body" style="background-color: #D5869C;">
+      <h5 class="card-title">{{ recipe.name }}</h5>
+      <p class="card-text">{{ recipe.description }}</p>
+      <a class="btn btn-warning"   
+      style="cursor: pointer;"
+      [routerLink]="[index]"
+      routerLinkActive="active"
+    >Select {{ recipe.name }}</a>
+    </div>
+  </div>

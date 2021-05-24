@@ -1,0 +1,25 @@
+@media screen and (max-width: 500px) {
+    .card{
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 727px) {
+    .card{
+        width: 28rem;
+    }
+}
+
+
+@media screen and (min-width: 991px) {
+    .card{
+        width: 20rem;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .card{
+        width: 25rem;
+    }
+}
